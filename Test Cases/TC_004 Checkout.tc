@@ -5,17 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fb79ed47-9de0-4b18-950d-d1519df53f70</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e4feb1ad-a69f-42be-b7ea-9b670bc62e5e</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'29.99'</defaultValue>
-      <description></description>
-      <id>e4feb1ad-a69f-42be-b7ea-9b670bc62e5e</id>
-      <masked>false</masked>
-      <name>hargaSauce</name>
-   </variable>
 </TestCaseEntity>

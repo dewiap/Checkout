@@ -1,3 +1,4 @@
+import java.awt.geom.Arc2D.Float as Float
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,21 +18,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-WebUI.maximizeWindow()
-WebUI.verifyMatch(WebUI.getWindowTitle(), 'Swag Labs', false)
+WebUI.callTestCase(findTestCase('TC_002 LoginUser'), [:])
 
-WebUI.click(findTestObject('/Login/username_field'))
-WebUI.setText(findTestObject('/Login/username_field'), GlobalVariable.username)
-WebUI.delay(2)
+float GetPriceItem = 22.99
+println('Get Price Sauce Labs Backpack is ' + GetPriceItem)
 
-WebUI.click(findTestObject('/Login/password_field'))
-WebUI.setText(findTestObject('/Login/password_field'), GlobalVariable.password)
-WebUI.delay(2)
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('/Login/loginButton'))
-WebUI.verifyElementText(findTestObject('SauceLabsBacpack/headerSauceLabsBackpack'), 'Sauce Labs Backpack')
-WebUI.takeScreenshot()
-
-System.out.println(hargaSauce)

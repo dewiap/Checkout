@@ -17,10 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-WebUI.maximizeWindow()
-
-WebUI.verifyMatch(WebUI.getWindowTitle(), 'Swag Labs', false)
+WebUI.callTestCase(findTestCase('TC_001 Open Browser'), [:])
 
 WebUI.click(findTestObject('/Login/username_field'))
 WebUI.setText(findTestObject('/Login/username_field'), GlobalVariable.username)
@@ -32,9 +29,7 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('/Login/loginButton'))
-
 WebUI.verifyElementText(findTestObject('SauceLabsBacpack/headerSauceLabsBackpack'), 'Sauce Labs Backpack')
 WebUI.takeScreenshot()
 
-WebUI.closeBrowser()
 

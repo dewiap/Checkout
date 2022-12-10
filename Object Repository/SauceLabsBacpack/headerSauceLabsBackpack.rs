@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>30014294-5ca5-460d-afe3-01a31daeeccb</webElementGuid>
+      <webElementGuid>1d174311-4135-4749-ab28-b66dd0755ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sauce Labs Backpack</value>
-      <webElementGuid>cf82ff30-a12f-4a0a-bc0b-98f56f57db23</webElementGuid>
+      <webElementGuid>a3691ac6-42a1-44bc-9b0b-a7aa94492f5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_name</value>
-      <webElementGuid>99ffdacc-ecf4-4466-80d9-4d3300238927</webElementGuid>
+      <webElementGuid>b6a6a02b-8974-4745-8b79-2adf082c1126</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
