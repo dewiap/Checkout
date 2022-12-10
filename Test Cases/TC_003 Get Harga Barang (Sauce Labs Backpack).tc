@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003 Get Harga Barang (Sauce Labs Backpack)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7dbc0be-81fe-427d-ae57-f2d12bd39ac0</testCaseGuid>
+</TestCaseEntity>

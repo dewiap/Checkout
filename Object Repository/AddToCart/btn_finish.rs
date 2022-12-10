@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_finish</name>
+   <tag></tag>
+   <elementGuidId>368e8885-6c6b-48f0-bea2-95b2f20d5032</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'finish' and @name = 'finish' and (text() = 'Finish' or . = 'Finish')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c911105b-c83a-4204-ac1c-ab4c8cc30ada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>finish</value>
+      <webElementGuid>0c34bc26-e294-4b0e-99ad-6592e1003073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>finish</value>
+      <webElementGuid>b40f0360-c8f2-4d34-a9a3-7c69a6b5df7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finish</value>
+      <webElementGuid>7c988f75-979b-4874-9522-23501261c9d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
